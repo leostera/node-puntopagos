@@ -1,0 +1,19 @@
+{
+    "name": "puntopagos",
+    "version": "0.0.2",
+    "description": "Node.js module to integrate PuntoPagos",
+    "preferGlobal": "false",
+    "main": "index.js",
+    "author": "Leandro Ostera",
+    "keywords": ["puntopagos", "gateway", "ecommerce"],
+    "repository" : {
+        "type": "git",
+        "url": "https://leostera@github.com/leostera/node-puntopagos.git"
+    },
+    "dependencies": {
+        "request": "*"
+      , "winston": "*"
+      , "crypto": "*"
+    },
+    "engines": { "node": "*" }
+}
